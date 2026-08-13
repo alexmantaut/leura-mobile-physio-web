@@ -19,15 +19,14 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-white shadow-sm">
       <nav className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2">
+        <Link href="/" className="flex items-center" aria-label="Leura Mobile Physio home">
           <Image
-            src="/LMP logo.jpeg"
+            src="/logo.jpeg"
             alt="Leura Mobile Physio Logo"
-            width={40}
-            height={40}
-            className="h-10 w-auto"
+            width={44}
+            height={44}
+            className="h-11 w-auto"
           />
-          <span className="font-bold text-lg text-sage-700 hidden sm:inline">LMP</span>
         </Link>
 
         {/* Desktop Navigation */}

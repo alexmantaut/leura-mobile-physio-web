@@ -9,23 +9,17 @@ export default function Home() {
   return (
     <>
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-sage-50 to-white py-20 md:py-32">
+      <section className="bg-gradient-to-br from-sage-50 to-white py-16 md:py-24">
         <div className="container-custom section-padding">
           <div className="flex flex-col items-center text-center gap-8">
             <div className="flex justify-center">
               <Image
-                src="/LMP logo.jpeg"
+                src="/logo.jpeg"
                 alt="Leura Mobile Physio Logo"
-                width={120}
-                height={120}
-                className="h-24 w-auto rounded-lg"
+                width={520}
+                height={520}
+                className="h-72 w-auto rounded-lg md:h-[28rem]"
               />
-            </div>
-            <div>
-              <h1 className="text-5xl font-bold text-gray-900 mb-4">Leura Mobile Physio</h1>
-              <p className="text-xl text-gray-600 max-w-2xl">
-                High quality physiotherapy accessible to your local community
-              </p>
             </div>
             <div className="flex gap-4 flex-wrap justify-center pt-4">
               <Link href="/services" className="btn-primary">
