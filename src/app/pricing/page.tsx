@@ -52,6 +52,14 @@ export default function PricingPage() {
               </div>
             </div>
 
+            {/* Travel Inclusion Notice */}
+            <div className="bg-green-50 border border-green-200 rounded-lg p-6 mb-12">
+              <p className="font-semibold text-green-900 mb-1">Travel Included</p>
+              <p className="text-green-900">
+                Travel costs to Katoomba and Bullaburra are included in all consultation prices. No additional travel fees apply for clients in these areas.
+              </p>
+            </div>
+
             {/* Additional Travel Fees */}
             <div className="mb-12">
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Additional Travel Fees</h2>
