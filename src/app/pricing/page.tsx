@@ -52,12 +52,12 @@ export default function PricingPage() {
               </div>
             </div>
 
-            {/* Travel Fees */}
+            {/* Additional Travel Fees */}
             <div className="mb-12">
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">Travel Fees</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">Additional Travel Fees</h2>
               <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-6">
                 <p className="text-blue-900">
-                  Travel fees apply based on distance from Leura. Additional time and fuel costs are calculated as follows:
+                  Additional travel fees apply based on distance from Leura. Additional time and fuel costs are calculated as follows:
                 </p>
               </div>
               <div className="bg-gray-50 rounded-lg overflow-hidden">
@@ -80,9 +80,9 @@ export default function PricingPage() {
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Frequently Asked Questions</h2>
               <div className="space-y-6">
                 <div className="bg-white border border-gray-200 rounded-lg p-6">
-                  <h3 className="font-semibold text-gray-900 mb-2">Do you offer concession rates?</h3>
+                  <h3 className="font-semibold text-gray-900 mb-2">Do you accept Medicare referrals?</h3>
                   <p className="text-gray-600">
-                    Yes, we can discuss pricing options for eligible concession card holders. Please contact us to discuss your specific circumstances.
+                    Yes, Chronic Disease Management/Medicare Benefit Scheme referrals from GPs are welcome.
                   </p>
                 </div>
 
@@ -96,7 +96,7 @@ export default function PricingPage() {
                 <div className="bg-white border border-gray-200 rounded-lg p-6">
                   <h3 className="font-semibold text-gray-900 mb-2">What if I need to cancel an appointment?</h3>
                   <p className="text-gray-600">
-                    We require 48 hours notice for cancellations. Cancellations made with less notice may incur a cancellation fee. Please contact us to reschedule.
+                    We require 24 hours notice for cancellations. Cancellations made with less notice may incur a cancellation fee. Please contact us to reschedule.
                   </p>
                 </div>
 
