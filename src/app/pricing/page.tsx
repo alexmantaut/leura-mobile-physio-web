@@ -123,7 +123,7 @@ export default function PricingPage() {
       {/* CTA */}
       <section className="section-padding bg-gradient-to-r from-sage-500 to-sage-600 text-white">
         <div className="container-custom text-center">
-          <h2 className="text-white mb-4">Questions About Pricing?</h2>
+          <h2 className="text-white mb-4">Questions?</h2>
           <p className="text-lg mb-8 opacity-90">
             Don't hesitate to reach out. We're happy to discuss your specific needs and circumstances.
           </p>
