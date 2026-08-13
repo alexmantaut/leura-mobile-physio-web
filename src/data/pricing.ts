@@ -21,12 +21,12 @@ export const pricing: PricingItem[] = [
     description: 'Longer session for complex cases',
   },
   {
-    type: 'Travel Fee (10-20 min)',
+    type: 'Travel Fee (10-20 min one way)',
     price: 20,
     description: 'Additional fee for travel time',
   },
   {
-    type: 'Travel Fee (20-30 min)',
+    type: 'Travel Fee (20-30 min one way)',
     price: 40,
     description: 'Additional fee for extended travel time',
   },
