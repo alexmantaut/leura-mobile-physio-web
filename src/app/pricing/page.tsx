@@ -90,7 +90,7 @@ export default function PricingPage() {
                 <div className="bg-white border border-gray-200 rounded-lg p-6">
                   <h3 className="font-semibold text-gray-900 mb-2">Do you accept Medicare referrals?</h3>
                   <p className="text-gray-600">
-                    Yes, Chronic Disease Management/Medicare Benefit Scheme referrals from GPs are welcome.
+                    Yes! Chronic Disease Management/Medicare Benefit Scheme referrals from GPs are welcome.
                   </p>
                 </div>
 
