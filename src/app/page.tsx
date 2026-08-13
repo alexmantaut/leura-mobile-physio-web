@@ -9,16 +9,16 @@ export default function Home() {
   return (
     <>
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-sage-50 to-white py-16 md:py-24">
+      <section className="bg-[#fffcf7] py-16 md:py-24">
         <div className="container-custom section-padding">
           <div className="flex flex-col items-center text-center gap-8">
-            <div className="flex justify-center">
+            <div className="flex justify-center bg-[#fffcf7] p-2 rounded-lg">
               <Image
                 src="/logo.jpeg"
                 alt="Leura Mobile Physio Logo"
                 width={520}
                 height={520}
-                className="h-72 w-auto rounded-lg md:h-[28rem]"
+                className="h-[12.6rem] w-auto rounded-lg md:h-[20.16rem]"
               />
             </div>
             <div className="flex gap-4 flex-wrap justify-center pt-4">

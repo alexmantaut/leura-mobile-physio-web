@@ -2,7 +2,7 @@
 @config "../../tailwind.config.ts";
 
 :root {
-  --background: #ffffff;
+  --background: #fffcf7;
   --foreground: #1f2937;
   --sage-primary: #88a088;
   --gold-primary: #d4a651;
@@ -11,7 +11,9 @@
 
 @layer base {
   body {
-    @apply bg-white text-gray-900 font-sans;
+    @apply text-gray-900 font-sans;
+    background-color: var(--background);
+    min-height: 100vh;
   }
 
   h1 {
