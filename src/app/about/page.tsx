@@ -70,10 +70,8 @@ export default function AboutPage() {
               <div className="bg-white p-6 rounded-lg border border-gray-200">
                 <h3 className="text-lg font-semibold text-sage-600 mb-3">Professional Credentials</h3>
                 <ul className="space-y-2 text-gray-600 text-sm">
-                  <li>✓ Degree in Physiotherapy</li>
-                  <li>✓ Over 15 years clinical experience</li>
-                  <li>✓ AHPRA Registration</li>
-                  <li>✓ Continuous professional development</li>
+                  <li>✓ Bachelor of Physiotherapy</li>
+                  <li>✓ Postgraduate diploma in Rehabilitation</li>
                 </ul>
               </div>
 
@@ -91,6 +89,7 @@ export default function AboutPage() {
                 <h3 className="text-lg font-semibold text-sage-600 mb-3">Special Interests</h3>
                 <ul className="space-y-2 text-gray-600 text-sm">
                   <li>✓ NDIS support coordination</li>
+                  <li>✓ Chronic pain management</li>
                   <li>✓ Falls prevention programs</li>
                   <li>✓ Disability support services</li>
                   <li>✓ Community health</li>
