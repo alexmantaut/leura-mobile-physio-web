@@ -111,7 +111,7 @@ export default function AboutPage() {
       </section>
 
       {/* Mission Section */}
-      <section className="section-padding bg-white">
+      {/* <section className="section-padding bg-white">
         <div className="container-custom">
           <div className="max-w-3xl mx-auto text-center">
             <div className="border-l-4 border-sage-500 pl-6">
@@ -122,7 +122,7 @@ export default function AboutPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA */}
       <section className="section-padding bg-gradient-to-r from-sage-500 to-sage-600 text-white">
