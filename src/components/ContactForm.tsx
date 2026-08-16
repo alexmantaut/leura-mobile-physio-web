@@ -105,10 +105,13 @@ export default function ContactForm() {
           <option value="">Select a service...</option>
           <option value="orthopaedic">Orthopaedic Injuries</option>
           <option value="older-persons">Older Person's Health</option>
+          <option value="post-surgical">Post-Surgical Rehabilitation</option>
           <option value="cardiovascular">Cardiovascular Conditions</option>
           <option value="disability">Disability Support</option>
           <option value="falls-prevention">Falls Prevention</option>
           <option value="neurological">Neurological Conditions</option>
+          <option value="hydrotherapy">Hydrotherapy</option>
+          <option value="other">Other</option>
         </select>
       </div>
 
