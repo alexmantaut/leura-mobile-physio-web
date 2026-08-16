@@ -1,8 +1,9 @@
 'use client';
 
-import { FormEvent, useState } from 'react';
+import { FormEvent, useRef, useState } from 'react';
 
 export default function ContactForm() {
+  const formRef = useRef<HTMLFormElement | null>(null);
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [error, setError] = useState('');
   const [isLoading, setIsLoading] = useState(false);
@@ -15,7 +16,7 @@ export default function ContactForm() {
     const formData = new FormData(e.currentTarget);
 
     try {
-      const response = await fetch('https://formspree.io/f/mwperyje', {
+      const response = await fetch('https://formspree.io/f/xkjwvqow', {
         method: 'POST',
         body: formData,
         headers: {
@@ -24,13 +25,16 @@ export default function ContactForm() {
       });
 
       if (response.ok) {
+        setError('');
         setIsSubmitted(true);
-        e.currentTarget.reset();
-        setTimeout(() => setIsSubmitted(false), 5000);
+        formRef.current?.reset();
+        window.setTimeout(() => setIsSubmitted(false), 5000);
       } else {
+        setIsSubmitted(false);
         setError('Failed to send message. Please try again.');
       }
     } catch (err) {
+      setIsSubmitted(false);
       setError('An error occurred. Please try again.');
       console.error('Form submission error:', err);
     } finally {
@@ -39,7 +43,7 @@ export default function ContactForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-6">
+    <form ref={formRef} onSubmit={handleSubmit} className="space-y-6">
       {isSubmitted && (
         <div className="p-4 bg-green-50 border border-green-200 rounded-lg text-green-800">
           Thank you for your message! We'll get back to you soon.
