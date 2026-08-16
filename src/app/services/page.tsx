@@ -17,7 +17,7 @@ export default function ServicesPage() {
           <div className="text-center">
             <h1 className="mb-4">Our Services</h1>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              We treat a range of conditions with evidence-based and individually tailored care.
+              We have experience treating a wide range of conditions. Explore what we could help you with:
             </p>
           </div>
         </div>
@@ -60,13 +60,7 @@ export default function ServicesPage() {
               <div className="bg-white p-6 rounded-lg">
                 <h3 className="text-sage-600 font-bold mb-2">Convenience</h3>
                 <p className="text-gray-600">
-                  Mobile service means no need to travel to a clinic. We bring physiotherapy to you in a comfortable, familiar environment.
-                </p>
-              </div>
-              <div className="bg-white p-6 rounded-lg">
-                <h3 className="text-sage-600 font-bold mb-2">Evidence-Based Treatment</h3>
-                <p className="text-gray-600">
-                  All treatment approaches are grounded in the latest research and clinical best practices.
+                  Mobile service means no need to travel to a clinic. We can see you in the comfort of your own home, or at your local gym or swimming pool. 
                 </p>
               </div>
             </div>
