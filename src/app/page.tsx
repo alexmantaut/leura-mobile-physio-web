@@ -9,26 +9,27 @@ export default function Home() {
   return (
     <>
       {/* Hero Section */}
-      <section className="bg-[#fffcf7] py-16 md:py-24">
-        <div className="container-custom section-padding">
-          <div className="flex flex-col items-center text-center gap-8">
+      <section className="bg-[#fffcf7] py-6 md:py-9">
+        <div className="container-custom px-4 py-3 md:px-6 md:py-5">
+          <div className="flex flex-col items-center text-center gap-3 md:gap-5">
             <div className="flex justify-center bg-[#fffcf7] p-2 rounded-lg">
               <Image
                 src="/logo.jpeg"
                 alt="Leura Mobile Physio Logo"
                 width={520}
                 height={520}
-                className="h-[12.6rem] w-auto rounded-lg md:h-[20.16rem]"
+                loading="eager"
+                className="h-[8rem] w-auto rounded-lg md:h-[11.2rem]"
               />
             </div>
-            <div className="flex gap-4 flex-wrap justify-center pt-4">
+            {/* <div className="flex gap-3 flex-wrap justify-center pt-2">
               <Link href="/services" className="btn-primary">
                 View Services
               </Link>
               <Link href="/contact" className="btn-secondary">
                 Book Appointment
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
@@ -37,11 +38,9 @@ export default function Home() {
       <section className="section-padding bg-white">
         <div className="container-custom">
           <div className="max-w-3xl mx-auto text-center mb-12">
-            <h2 className="mb-4">About Leura Mobile Physio</h2>
+            <h2 className="mb-4">About Us</h2>
             <p className="text-lg text-gray-600">
-              We provide personalized, evidence-based physiotherapy services tailored to your unique needs.
-              With over 15 years of clinical experience, we're committed to helping you achieve your health goals
-              with a warm, empathetic approach.
+              Personalised, evidence-based physiotherapy services tailored to your unique needs. As a mobile physiotherapy service, we come to you.
             </p>
           </div>
         </div>

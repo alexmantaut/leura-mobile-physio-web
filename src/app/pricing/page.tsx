@@ -14,8 +14,8 @@ export default function PricingPage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-sage-50 to-white py-16 md:py-20">
-        <div className="container-custom section-padding">
+      <section className="bg-gradient-to-br from-sage-50 to-white py-6 md:py-9">
+        <div className="container-custom px-4 py-3 md:px-6 md:py-5">
           <div className="text-center">
             <h1 className="mb-4">Our Pricing</h1>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
