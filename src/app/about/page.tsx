@@ -35,7 +35,7 @@ export default function AboutPage() {
                     alt="Sarah Tiong"
                     width={800}
                     height={1000}
-                    className="h-[28rem] w-full object-cover"
+                    className="h-[28rem] w-full object-cover object-top"
                     priority
                   />
                 </div>
