@@ -16,7 +16,7 @@ export default function AboutPage() {
           <div className="text-center">
             <h1 className="mb-4">About Sarah Tiong</h1>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Experienced physiotherapist dedicated to providing high quality, personalized care.
+              Personalised, evidence-based physiotherapy services tailored to your unique needs. As a mobile physiotherapy service, we come to you.
             </p>
           </div>
         </div>
