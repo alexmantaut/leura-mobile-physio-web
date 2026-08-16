@@ -70,7 +70,7 @@ export default function Home() {
       </section>
 
       {/* Pricing Overview */}
-      <section className="section-padding bg-white">
+      {/* <section className="section-padding bg-white">
         <div className="container-custom">
           <h2 className="text-center mb-12">Transparent Pricing</h2>
           <div className="max-w-2xl mx-auto">
@@ -100,7 +100,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <section className="section-padding bg-gradient-to-r from-sage-500 to-sage-600 text-white">
