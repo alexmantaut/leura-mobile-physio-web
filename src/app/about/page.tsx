@@ -70,11 +70,13 @@ export default function AboutPage() {
               <div className="bg-white p-6 rounded-lg border border-gray-200">
                 <h3 className="text-lg font-semibold text-sage-600 mb-3">Professional Credentials</h3>
                 <ul className="space-y-2 text-gray-600 text-sm">
-                  <li>✓ Bachelor of Physiotherapy</li>
-                  <li>✓ Postgraduate diploma in Rehabilitation</li>
+                  <li>✓ Bachelor of Physiotherapy 2010</li>
+                  <li>✓ Postgraduate Diploma in Rehabilitation 2016</li>
+                  <li>✓ Registered Physiotherapist with AHPRA</li>
+                  <li>✓ Member of Australian Physiotherapy Association</li>
                 </ul>
               </div>
-
+{/* 
               <div className="bg-white p-6 rounded-lg border border-gray-200">
                 <h3 className="text-lg font-semibold text-sage-600 mb-3">Areas of Expertise</h3>
                 <ul className="space-y-2 text-gray-600 text-sm">
@@ -83,9 +85,9 @@ export default function AboutPage() {
                   <li>✓ Cardiovascular conditions</li>
                   <li>✓ Neurological conditions</li>
                 </ul>
-              </div>
+              </div> */}
 
-              <div className="bg-white p-6 rounded-lg border border-gray-200">
+              {/* <div className="bg-white p-6 rounded-lg border border-gray-200">
                 <h3 className="text-lg font-semibold text-sage-600 mb-3">Special Interests</h3>
                 <ul className="space-y-2 text-gray-600 text-sm">
                   <li>✓ NDIS support coordination</li>
@@ -94,7 +96,7 @@ export default function AboutPage() {
                   <li>✓ Disability support services</li>
                   <li>✓ Community health</li>
                 </ul>
-              </div>
+              </div> */}
 
               <div className="bg-white p-6 rounded-lg border border-gray-200">
                 <h3 className="text-lg font-semibold text-sage-600 mb-3">Treatment Philosophy</h3>
