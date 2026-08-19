@@ -46,13 +46,13 @@ export default function AboutPage() {
                 <h2 className="mb-6">Introducing Sarah</h2>
                 <div className="space-y-4 text-gray-600">
                   <p>
-                    With over 15 years of clinical experience, Sarah is passionate about providing high quality physiotherapy that is accessible to her local community. She believes that everyone deserves professional, compassionate care regardless of their circumstances.
+                    Attending health appointments can be challenging. You may be too sore or tired to travel. It can be difficult to arrange a friend or family member to take you, or to book a taxi. We get it.
                   </p>
                   <p>
-                    Sarah's approach is person-centered and evidence-based. She takes time to understand your unique situation, develop a tailored treatment plan, and empower you to take an active role in your recovery.
+                    Having provided community based physiotherapy services across Central Otago in New Zealand and the Central West in New South Wales, Sarah knows firsthand the benefits of receiving care at home or at your local gym or pool. It can reduce the stress of travel, provide a familiar environment, and make it easier to fit appointments around your schedule.
                   </p>
                   <p>
-                    Whether you're recovering from an injury, managing a chronic condition, or looking to improve your mobility and wellbeing, Sarah's goal is to help you achieve your health objectives.
+                    Sarah is passionate about providing high-quality physiotherapy that is accessible to her local community. She believes everyone deserves professional, compassionate care, regardless of their circumstances. Whether you're recovering from an injury, managing a chronic condition, or looking to improve your mobility and wellbeing, Sarah aims to support you in achieving your health and wellbeing goals.
                   </p>
                 </div>
               </div>
