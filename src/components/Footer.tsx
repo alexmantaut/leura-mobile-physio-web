@@ -15,7 +15,7 @@ export default function Footer() {
               </a>
             </p>
             <p className="text-gray-600 text-sm">
-              Phone: <span className="text-gray-700">[Contact for details]</span>
+              Phone: <span className="text-gray-700">0450 985 875</span>
             </p>
           </div>
 

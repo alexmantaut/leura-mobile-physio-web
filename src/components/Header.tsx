@@ -14,6 +14,8 @@ export default function Header() {
     { name: 'About', href: '/about' },
     { name: 'Contact', href: '/contact' },
   ];
+  const phoneNumber = '0450 985 875';
+  const phoneHref = 'tel:0450985875';
 
   return (
     <header className="sticky top-0 z-50 bg-white shadow-sm">
@@ -31,7 +33,7 @@ export default function Header() {
         </Link>
 
         {/* Desktop Navigation */}
-        <div className="hidden md:flex gap-8">
+        <div className="hidden items-center gap-8 md:flex">
           {navLinks.map((link) => (
             <Link
               key={link.href}
@@ -41,6 +43,12 @@ export default function Header() {
               {link.name}
             </Link>
           ))}
+          <a
+            href={phoneHref}
+            className="inline-flex items-center rounded-full border border-sage-500 px-4 py-2 font-medium text-sage-700 transition-colors hover:bg-sage-50 hover:text-sage-800"
+          >
+            {phoneNumber}
+          </a>
         </div>
 
         {/* Mobile Menu Button */}
@@ -69,6 +77,12 @@ export default function Header() {
       {isOpen && (
         <div className="md:hidden bg-white border-t border-gray-100">
           <div className="max-w-6xl mx-auto px-4 py-4 space-y-2">
+            <a
+              href={phoneHref}
+              className="inline-flex items-center rounded-full border border-sage-500 px-4 py-2 font-medium text-sage-700 transition-colors hover:bg-sage-50 hover:text-sage-800"
+            >
+              {phoneNumber}
+            </a>
             {navLinks.map((link) => (
               <Link
                 key={link.href}
