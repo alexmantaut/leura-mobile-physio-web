@@ -50,12 +50,12 @@ export default function ContactPage() {
                   </p>
                 </div>
 
-                <div>
+                {/* <div>
                   <h3 className="font-semibold text-gray-900 mb-2">NDIS Support</h3>
                   <p className="text-gray-600">
                     NDIS funding accepted. We can assist with claim submissions and coordination.
                   </p>
-                </div>
+                </div> */}
 
                 <div className="bg-sage-50 border border-sage-200 rounded-lg p-4 mt-8">
                   <h3 className="font-semibold text-sage-900 mb-2">In an Emergency?</h3>
