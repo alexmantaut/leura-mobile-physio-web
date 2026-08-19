@@ -56,16 +56,17 @@ export default function PricingPage() {
             <div className="bg-green-50 border border-green-200 rounded-lg p-6 mb-12">
               <p className="font-semibold text-green-900 mb-1">Travel Included</p>
               <p className="text-green-900">
-                Travel costs to Katoomba and Bullaburra are included in all consultation prices. No additional travel fees apply for clients in these areas.
+                Travel costs for clients located between Katoomba and Bullaburra are included in the pricing above.
               </p>
             </div>
 
             {/* Additional Travel Fees */}
             <div className="mb-12">
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Additional Travel Fees</h2>
-              <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-6">
-                <p className="text-blue-900">
-                  Additional travel fees apply based on distance from Leura. Additional time and fuel costs are calculated as follows:
+                
+              <div className="rounded-lg overflow-hidden mb-4"> 
+                <p>
+                  For consultations in suburbs beyond Katoomba to Bullaburra, additional travel fees apply and are based on distance from Leura. Additional time and fuel costs are as follows:
                 </p>
               </div>
               <div className="bg-gray-50 rounded-lg overflow-hidden">
@@ -82,6 +83,14 @@ export default function PricingPage() {
                 ))}
               </div>
             </div>
+            <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-6">
+                <p className="text-blue-900">
+                  <i>
+                    Suburbs of Medlow Bath, Blackheath and Mount Victoria are serviced through Blackheath Physio and Pilates
+                  </i>
+                </p>
+            </div>
+
 
             {/* FAQ Section */}
             <div className="mb-12">
